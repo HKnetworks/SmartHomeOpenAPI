@@ -125,7 +125,8 @@ Content-Length: **
     "password":"******",     
     "mac":"5ccf7fcc0f83",
     "deviceId":"369ab1a4e6d54f63adfb593e6765a8c7", 
-    "deviceType":5   
+    "deviceType":5,
+    "irDeviceId":4736
 }
 ````
 | 필드이름  | 자료형| 필드 설명| 포함 여부|
@@ -135,6 +136,7 @@ Content-Length: **
 | mac | string| 요청하는 디바이스의 Mac Address  | 항상|
 | deviceId | string| 요청하는 디바이스의 디바이스ID  | 항상|
 | deviceType | int| 요청하는 디바이스의 디바이스 타입  | 항상|
+| irDeviceId | int| 요청하는 디바이스의 IR 디바이스 아이디  | 항상|
 
 
 #### 응답 본문
